@@ -1,0 +1,28 @@
+Source: kde-hello
+Section: kde
+Priority: optional
+Maintainer: Kristopher Ives <kristopher.ives@gmail.com>
+Build-Depends:
+ debhelper (>= 10),
+ cmake, extra-cmake-modules,
+ libecm1-dev,
+ libkdecorations2-dev,
+ libkf5codecs-dev,
+ libkf5configwidgets-dev,
+ libkf5coreaddons-dev,
+ libkf5guiaddons-dev,
+ libkf5i18n-dev,
+ libkf5widgetsaddons-dev,
+ libkf5windowsystem-dev,
+ libqt5x11extras5-dev,
+ libfftw3-dev
+Standards-Version: 4.1.2
+Homepage: https://github.com/n4n0GH/hello
+Vcs-Git: https://github.com/n4n0GH/hello.git
+Vcs-Browser: https://github.com/n4n0GH/hello
+
+Package: kde-hello
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: OSX-like window decoration for KDE Plasma written in C++
+  the complete KDE theme

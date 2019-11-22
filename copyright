@@ -1,0 +1,11 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kde-hello
+Source: https://github.com/n4n0GH/hello
+
+Files: *
+Copyright: 2019 n4n0 <sumpunk@protonmail.com>
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2018 Kristopher Ives <kristopher.ives@gmail.com>
+License: GPL-2+
